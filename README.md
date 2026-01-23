@@ -46,7 +46,7 @@ graph TD
     
     subgraph Smart Contracts
         NFT[IndieGoNFT Contract]
-        Token[IndieToken (ERC20)]
+        Token[IndieToken {ERC20}]
         
         NFT -->|Checks Balance| Token
         NFT -->|Transfers Funds| Token
