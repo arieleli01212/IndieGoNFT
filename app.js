@@ -2,8 +2,8 @@ let web3, userAccount;
 let nftContract, tokenContract;
 
 // *** חשוב: וודא שהכתובות מעודכנות לאחר ה-Deploy האחרון ***
-const NFT_ADDRESS = "0xF5ae303cc8fB43f2AC9305379116a6AF4E9197d3"; 
-const TOKEN_ADDRESS = "0xeA924557C3F82ebF625e3614B1937bf13B6B644c";
+const NFT_ADDRESS = "0xF5ae303cc8fB43f2AC9305379116a6AF4E9197d3"; // This is how an address should look like
+const TOKEN_ADDRESS = "0xeA924557C3F82ebF625e3614B1937bf13B6B644c"; // This is how an address should look like
 
 // ה-ABI המלא והמעודכן
 const NFT_ABI = [
